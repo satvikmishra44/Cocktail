@@ -1,11 +1,16 @@
-import React from 'react';
+import gsap from 'gsap';
+import {ScrollTrigger, SplitText} from 'gsap/all'
 import './App.css'
+import Navbar from './components/Navbar';
+import Hero from './components/Hero';
 
 function App() {
   return (
-    <div className='flex-center h-[100vh]'>
-      Demo
-    </div>
+    <main>
+      <Navbar />
+      <Hero />
+      <div className='h-dvh'></div>
+    </main>
   );
 }
 
