@@ -5,6 +5,7 @@ import Navbar from './components/Navbar';
 import Hero from './components/Hero';
 import Cocktails from './components/Cocktails';
 import About from './components/About';
+import Art from './components/Art';
 
 function App() {
   return (
@@ -13,7 +14,7 @@ function App() {
       <Hero />
       <Cocktails />
       <About />
-      <div className='h-dvh'></div>
+      <Art />
     </main>
   );
 }
